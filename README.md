@@ -1,5 +1,10 @@
 # JoyceSoft - Sistema Contábil Inteligente
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/Node.js-v18.x-green.svg)](https://nodejs.org/)
+[![Supabase](https://img.shields.io/badge/Supabase-v2.x-blue.svg)](https://supabase.io/)
+[![n8n](https://img.shields.io/badge/n8n-v1.x-orange.svg)](https://n8n.io/)
+
 ## 📋 Sobre o Projeto
 Sistema contábil inteligente e automatizado desenvolvido exclusivamente para a Joyce, centralizando o controle de clientes, emissão de notas fiscais, geração de cobranças, organização de tarefas e acompanhamento de pagamentos.
 
@@ -43,7 +48,28 @@ Sistema contábil inteligente e automatizado desenvolvido exclusivamente para a 
 - ChatGPT: Assistente inteligente
 
 ## 📦 Instalação e Configuração
-(Instruções serão adicionadas conforme o desenvolvimento)
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/feolivs/joycesoft.git
+cd joycesoft
+```
+
+2. Instale as dependências:
+```bash
+npm install
+```
+
+3. Configure as variáveis de ambiente:
+```bash
+cp .env.example .env
+# Edite o arquivo .env com suas configurações
+```
+
+4. Inicie o servidor:
+```bash
+npm run dev
+```
 
 ## 🔒 Segurança
 - Sistema 100% privado
@@ -55,4 +81,10 @@ Sistema contábil inteligente e automatizado desenvolvido exclusivamente para a 
 - Arquitetura modular
 - Possibilidade de expansão
 - Suporte a múltiplos clientes
-- Processos automatizados 
+- Processos automatizados
+
+## 📄 Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 🤝 Contribuição
+Contribuições são bem-vindas! Por favor, leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes sobre nosso código de conduta e o processo para enviar pull requests. 
